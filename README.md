@@ -15,21 +15,7 @@ You've just to install and enable it !
 
 Including this dependency in your Magento project is the more convenient way to integrate optimisation module.
 
-In order to be able to install it, you'll need to be sure that your root composer.json file contains a reference to the bitbucket repository.  To do so you'll need to add the following to `composer.json`:
-
-```json
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://bitbucket.org/blackbirdagency/magento2-extensions-optimisation/"
-        }
-    ]
-```
-
-The above can also be added via the composer cli with the command: 
-
-    composer config repositories.blackbird_optimisation vcs https://bitbucket.org/blackbirdagency/magento2-extensions-optimisation/
-
+`composer require blackbird/optimisation`
 
 Once the repository added, run the two following commands:
 
