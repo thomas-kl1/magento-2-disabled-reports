@@ -11,21 +11,28 @@ This module lets not overloaded the database of reports and log.
 
 You've just to install and enable it !
 
-## Installation
+## Setup
 
-Including this dependency in your Magento project is the more convenient way to integrate optimisation module.
+The module is available on packagist, so you can install the module through composer:
 
-`composer require blackbird/optimisation`
+```
+composer require blackbird/optimisation
+```
 
-Once the repository added, run the two following commands:
+Then, run the following magento command:
 
-    composer require blackbird/optimisation
-    php bin/magento setup:upgrade
+```
+php bin/magento setup:upgrade
+```
 
-## Contributors
+**If you are in production mode, do not forget to recompile and redeploy the static resources.**
+## Authors
 
-Thomas Klein ([Blackbird](http://black.bird.eu) team member)
+- **Thomas Klein** - *Initial work* - [It's me!](https://github.com/thomas-blackbird)
+- **Blackbird Team** - *Contributor* - [They're awesome!](https://github.com/blackbird-agency)
 
 ## License
 
-OSL 3.0
+This project is licensed under the OSL 3.0 License
+
+***That's all folks!***
