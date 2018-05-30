@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!--
+/**
+ * Blackbird Disable Reports Module
+ *
+ * NOTICE OF LICENSE
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to contact@bird.eu so we can send you a copy immediately.
+ *
+ * @category    Blackbird
+ * @package     Blackbird_DisableReports
+ * @copyright   Copyright (c) 2018 Blackbird (https://black.bird.eu)
+ * @author      Blackbird Team
+ * @license     MIT
+ * @support     help@bird.eu
+ */
+-->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <!-- //TODO: log customer -->
     <event name="catalog_product_compare_remove_product">
         <observer name="reports" instance="Magento\Reports\Observer\CatalogProductCompareClearObserver" disabled="true" />
     </event>
