@@ -1,7 +1,7 @@
 ## Blackbird Disable Reports Module
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/blackbird/module-disable-reports.svg?style=flat-square)](https://packagist.org/packages/blackbird/module-disable-reports)
-[![License: <licence>](https://img.shields.io/github/license/https://github.com/blackbird-agency/magento-2-disabled-reports.svg?style=flat-square)](./LICENSE) 
+[![License: MIT](https://img.shields.io/github/license/blackbird-agency/magento-2-disabled-reports.svg?style=flat-square)](./LICENSE) 
 
 Blackbird_Optimisation module functionality is represented by the following sub-systems:
 
@@ -9,6 +9,8 @@ Blackbird_Optimisation module functionality is represented by the following sub-
 * Disable Magento_Reports saving in database
 
 This module lets not overloaded the database of reports and log.
+
+***Sometimes it's easier to just disabled the Magento_Reports module...***
 
 ## How to use it
 
